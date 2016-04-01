@@ -10,10 +10,10 @@ router.post('/', function(req, res, next) {
     var id = req.body.id;
     console.log("message recived", color);
   
-    var hubnamespace = 'cloudweek';
-    var hubname = 'uniandes';
-    var keyname = 'send';
-    var key = 'UQvsUaY2U6gvURspPgkN2MQ3XQUkd09Tllolv/Cvnbw=';
+    var hubnamespace = 'ua-eventhub';
+    var hubname = 'ua-eventcenter';
+    var keyname = 'enviar';
+    var key = 'jm+K3ap02sg3xEI2HfloK5InUQbK1v6R+uj7WA1ylRk=';
 
     eventHubs.init({
         hubNamespace: hubnamespace,
